@@ -1,0 +1,89 @@
+{
+  "name": "vscode-nestjs-mikroorm-snippets",
+  "displayName": "NestJS MikroORM Snippets for VSCode Editor",
+  "description": "Snippets for MikroORM and NestJS for faster development. This extension for Visual Studio Code adds snippets for MikroORM for NestJS development.",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "license": "MIT",
+  "publisher": "imgildev",
+  "author": {
+    "name": "Manuel Gil",
+    "url": "https://github.com/ManuelGil"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/manuelgil"
+  },
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "autocomplete-functionality",
+    "autocomplete",
+    "boilerplate",
+    "express",
+    "extension",
+    "grammars-utility",
+    "grammars",
+    "javascript",
+    "js",
+    "nest",
+    "nestjs-snippet",
+    "nestjs-snippets",
+    "nestjs",
+    "nestjs",
+    "node",
+    "nodejs",
+    "orm-snippet",
+    "orm-snippets",
+    "orm",
+    "snippet",
+    "snippets-collection",
+    "snippets-collections",
+    "snippets-library",
+    "snippets-plugin",
+    "snippets",
+    "ts",
+    "type-orm-snippet",
+    "type-orm-snippets",
+    "type-orm",
+    "mikroorm-snippet",
+    "mikroorm-snippets",
+    "mikroorm",
+    "typescript",
+    "vscode-extension",
+    "vscode"
+  ],
+  "homepage": "https://github.com/ManuelGil/vscode-nestjs-mikroorm-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelGil/vscode-nestjs-mikroorm-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/ManuelGil/vscode-nestjs-mikroorm-snippets/issues"
+  },
+  "extensionPack": [
+    "imgildev.vscode-nestjs-snippets-extension"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "path": "./snippets/core/common.code-snippets"
+      },
+      {
+        "path": "./snippets/core/decorators.code-snippets"
+      },
+      {
+        "path": "./snippets/mysql/common.code-snippets"
+      },
+      {
+        "path": "./snippets/nestjs/common.code-snippets"
+      },
+      {
+        "path": "./snippets/custom.code-snippets"
+      }
+    ]
+  }
+}

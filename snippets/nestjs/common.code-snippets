@@ -1,0 +1,17 @@
+{
+  "InjectMikroORM": {
+    "prefix": ["ns_mikroorm_deco_inject_mikroorm", "@InjectMikroORM"],
+    "scope": "plaintext,typescript,typescriptreact",
+    "body": "@InjectMikroORM() private readonly orm: MikroORM;"
+  },
+  "InjectRepository": {
+    "prefix": ["ns_mikroorm_deco_inject_repository", "@InjectRepository"],
+    "scope": "plaintext,typescript,typescriptreact",
+    "body": "@InjectRepository(${1:Entity}) private readonly ${2:entity}Repository: EntityRepository<${1:Entity}>;"
+  },
+  "InjectEntityManager": {
+    "prefix": ["ns_mikroorm_deco_inject_entity_manager", "@InjectEntityManager"],
+    "scope": "plaintext,typescript,typescriptreact",
+    "body": "@InjectEntityManager() private readonly em: EntityManager;"
+  }
+}

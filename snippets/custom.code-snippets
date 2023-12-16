@@ -1,0 +1,12 @@
+{
+  "MikroOrmModule forRoot": {
+    "prefix": ["ns_mikroorm_module_root", "@MikroOrmModule"],
+    "scope": "plaintext,typescript,typescriptreact",
+    "body": ["MikroOrmModule.forRoot({", "  entities: [__dirname + '/dist/entities'],", "  entitiesTs: [__dirname + '/src/entities'],", "  dbName: 'my-db-name.sqlite3',", "  type: 'sqlite',", "}),", ""]
+  },
+  "MikroOrmModule forFeature": {
+    "prefix": ["ns_mikroorm_module_feature", "@MikroOrmModule"],
+    "scope": "plaintext,typescript,typescriptreact",
+    "body": ["MikroOrmModule.forFeature([", "  $0", "]),", ""]
+  },
+}

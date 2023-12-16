@@ -1,0 +1,7 @@
+{
+  "EntityRepository": {
+    "prefix": ["ns_mikroorm_entity_repository", "EntityRepository"],
+    "scope": "plaintext,typescript,typescriptreact",
+    "body": ["import { EntityRepository } from '@mikro-orm/mysql';", "", "export class ${1:Entity}Repository extends EntityRepository<${1:Entity}> {", "  ", "}", ""]
+  }
+}
