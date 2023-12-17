@@ -8,5 +8,5 @@
     "prefix": ["ns_mikroorm_module_feature", "@MikroOrmModule"],
     "scope": "plaintext,typescript,typescriptreact",
     "body": ["MikroOrmModule.forFeature([", "  $0", "]),", ""]
-  },
+  }
 }

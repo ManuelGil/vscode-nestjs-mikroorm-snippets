@@ -7,11 +7,11 @@
   "EntityDTO": {
     "prefix": ["ns_mikroorm_entity_dto", "EntityDTO"],
     "scope": "plaintext,typescript,typescriptreact",
-    "body": ["export interface ${1:Entity}DTO {",   ${2:property}: ${3:string};", "}", ""]
+    "body": ["export interface ${1:Entity}DTO {", "  ${2:property}: ${3:string};", "}", ""]
   },
   "RequestContext": {
     "prefix": ["ns_mikroorm_request_context", "RequestContext"],
     "scope": "plaintext,typescript,typescriptreact",
     "body": "RequestContext.create(this.orm.map(orm => orm.em), next);"
-  },
+  }
 }

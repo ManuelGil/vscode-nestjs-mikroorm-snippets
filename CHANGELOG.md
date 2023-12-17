@@ -7,9 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2023-12-16
+
+### Fixed
+
+- Fix Typos
+
 ## [1.0.0] - 2023-12-16
 
 - Initial release
 
-[unreleased]: https://github.com/ManuelGil/vscode-nestjs-mikroorm-snippets/compare/v1.1.0...HEAD
+[unreleased]: https://github.com/ManuelGil/vscode-nestjs-mikroorm-snippets/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/ManuelGil/vscode-nestjs-mikroorm-snippets/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/ManuelGil/vscode-nestjs-mikroorm-snippets/releases/tag/v1.0.0
