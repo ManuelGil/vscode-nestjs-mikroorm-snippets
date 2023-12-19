@@ -128,5 +128,15 @@
     "prefix": ["ns_mikroorm_deco_unique", "@Unique"],
     "scope": "plaintext,typescript,typescriptreact",
     "body": "@Unique($0)"
-  }
+  },
+  "SerializedPrimaryKey": {
+    "prefix": ["ns_mikroorm_deco_serialized_primary_key", "@SerializedPrimaryKey"],
+    "scope": "plaintext,typescript,typescriptreact",
+    "body": "@SerializedPrimaryKey()"
+  },
+  "Subscriber": {
+    "prefix": ["ns_mikroorm_deco_subscriber", "@Subscriber"],
+    "scope": "plaintext,typescript,typescriptreact",
+    "body": "@Subscriber()"
+  },
 }

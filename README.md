@@ -54,6 +54,8 @@ Type part of snippet, press `Tab` or `Enter`, and the snippet unfolds. Below is 
 | ns_mikroorm_deco_inject_entity_manager | @InjectEntityManager |
 | ns_mikroorm_module_root | @MikroOrmModule |
 | ns_mikroorm_module_feature | @MikroOrmModule |
+| ns_mikroorm_deco_serialized_primary_key | @SerializedPrimaryKey |
+| ns_mikroorm_deco_subscriber | @Subscriber |
 
 ## Other Extensions
 
