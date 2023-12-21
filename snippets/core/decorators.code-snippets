@@ -1,142 +1,142 @@
 {
   "Entity": {
     "prefix": ["ns_mikroorm_deco_entity", "@Entity"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": ["import { Entity } from '@mikro-orm/core';", "", "@Entity()", "export class ${1:Entity} {", "  ${2:field}: ${3:string};", "}", ""]
   },
   "PrimaryKey": {
     "prefix": ["ns_mikroorm_deco_primary_key", "@PrimaryKey"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@PrimaryKey()"
   },
   "Property": {
     "prefix": ["ns_mikroorm_deco_property", "@Property"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Property($0)"
   },
   "ManyToOne": {
     "prefix": ["ns_mikroorm_deco_many_to_one", "@ManyToOne"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@ManyToOne($0)"
   },
   "OneToMany": {
     "prefix": ["ns_mikroorm_deco_one_to_many", "@OneToMany"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@OneToMany($0)"
   },
   "ManyToMany": {
     "prefix": ["ns_mikroorm_deco_many_to_many", "@ManyToMany"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@ManyToMany($0)"
   },
   "OneToOne": {
     "prefix": ["ns_mikroorm_deco_one_to_one", "@OneToOne"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@OneToOne($0)"
   },
   "Check": {
     "prefix": ["ns_mikroorm_deco_check", "@Check"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Check($0)"
   },
   "Embeddable": {
     "prefix": ["ns_mikroorm_deco_embeddable", "@Embeddable"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Embeddable()"
   },
   "Embedded": {
     "prefix": ["ns_mikroorm_deco_embedded", "@Embedded"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Embedded($0)"
   },
   "EnsureRequestContext": {
     "prefix": ["ns_mikroorm_deco_ensure_request_context", "@EnsureRequestContext"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@EnsureRequestContext()"
   },
   "Enum": {
     "prefix": ["ns_mikroorm_deco_enum", "@Enum"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Enum($0)"
   },
   "Filter": {
     "prefix": ["ns_mikroorm_deco_filter", "@Filter"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Filter($0)"
   },
   "Formula": {
     "prefix": ["ns_mikroorm_deco_formula", "@Formula"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Formula($0)"
   },
   "BeforeCreate": {
     "prefix": ["ns_mikroorm_deco_before_create", "@BeforeCreate"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@BeforeCreate()"
   },
   "AfterCreate": {
     "prefix": ["ns_mikroorm_deco_after_create", "@AfterCreate"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@AfterCreate()"
   },
   "BeforeUpdate": {
     "prefix": ["ns_mikroorm_deco_before_update", "@BeforeUpdate"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@BeforeUpdate()"
   },
   "AfterUpdate": {
     "prefix": ["ns_mikroorm_deco_after_update", "@AfterUpdate"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@AfterUpdate()"
   },
   "BeforeUpsert": {
     "prefix": ["ns_mikroorm_deco_before_upsert", "@BeforeUpsert"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@BeforeUpsert()"
   },
   "AfterUpsert": {
     "prefix": ["ns_mikroorm_deco_after_upsert", "@AfterUpsert"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@AfterUpsert()"
   },
   "OnInit": {
     "prefix": ["ns_mikroorm_deco_on_init", "@OnInit"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@OnInit()"
   },
   "OnLoad": {
     "prefix": ["ns_mikroorm_deco_on_load", "@OnLoad"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@OnLoad()"
   },
   "BeforeDelete": {
     "prefix": ["ns_mikroorm_deco_before_delete", "@BeforeDelete"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@BeforeDelete()"
   },
   "AfterDelete": {
     "prefix": ["ns_mikroorm_deco_after_delete", "@AfterDelete"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@AfterDelete()"
   },
   "Index": {
     "prefix": ["ns_mikroorm_deco_index", "@Index"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Index($0)"
   },
   "Unique": {
     "prefix": ["ns_mikroorm_deco_unique", "@Unique"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Unique($0)"
   },
   "SerializedPrimaryKey": {
     "prefix": ["ns_mikroorm_deco_serialized_primary_key", "@SerializedPrimaryKey"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@SerializedPrimaryKey()"
   },
   "Subscriber": {
     "prefix": ["ns_mikroorm_deco_subscriber", "@Subscriber"],
-    "scope": "plaintext,typescript,typescriptreact",
+    "scope": "typescript",
     "body": "@Subscriber()"
-  },
+  }
 }
