@@ -1,140 +1,140 @@
 {
-  "Entity": {
+  "MikroORM Entity": {
     "prefix": ["ns_mikroorm_deco_entity", "@Entity"],
     "scope": "typescript",
     "body": ["import { Entity } from '@mikro-orm/core';", "", "@Entity()", "export class ${1:Entity} {", "  ${2:field}: ${3:string};", "}", ""]
   },
-  "PrimaryKey": {
+  "MikroORM PrimaryKey": {
     "prefix": ["ns_mikroorm_deco_primary_key", "@PrimaryKey"],
     "scope": "typescript",
     "body": "@PrimaryKey()"
   },
-  "Property": {
+  "MikroORM Property": {
     "prefix": ["ns_mikroorm_deco_property", "@Property"],
     "scope": "typescript",
     "body": "@Property($0)"
   },
-  "ManyToOne": {
+  "MikroORM ManyToOne": {
     "prefix": ["ns_mikroorm_deco_many_to_one", "@ManyToOne"],
     "scope": "typescript",
     "body": "@ManyToOne($0)"
   },
-  "OneToMany": {
+  "MikroORM OneToMany": {
     "prefix": ["ns_mikroorm_deco_one_to_many", "@OneToMany"],
     "scope": "typescript",
     "body": "@OneToMany($0)"
   },
-  "ManyToMany": {
+  "MikroORM ManyToMany": {
     "prefix": ["ns_mikroorm_deco_many_to_many", "@ManyToMany"],
     "scope": "typescript",
     "body": "@ManyToMany($0)"
   },
-  "OneToOne": {
+  "MikroORM OneToOne": {
     "prefix": ["ns_mikroorm_deco_one_to_one", "@OneToOne"],
     "scope": "typescript",
     "body": "@OneToOne($0)"
   },
-  "Check": {
+  "MikroORM Check": {
     "prefix": ["ns_mikroorm_deco_check", "@Check"],
     "scope": "typescript",
     "body": "@Check($0)"
   },
-  "Embeddable": {
+  "MikroORM Embeddable": {
     "prefix": ["ns_mikroorm_deco_embeddable", "@Embeddable"],
     "scope": "typescript",
     "body": "@Embeddable()"
   },
-  "Embedded": {
+  "MikroORM Embedded": {
     "prefix": ["ns_mikroorm_deco_embedded", "@Embedded"],
     "scope": "typescript",
     "body": "@Embedded($0)"
   },
-  "EnsureRequestContext": {
+  "MikroORM EnsureRequestContext": {
     "prefix": ["ns_mikroorm_deco_ensure_request_context", "@EnsureRequestContext"],
     "scope": "typescript",
     "body": "@EnsureRequestContext()"
   },
-  "Enum": {
+  "MikroORM Enum": {
     "prefix": ["ns_mikroorm_deco_enum", "@Enum"],
     "scope": "typescript",
     "body": "@Enum($0)"
   },
-  "Filter": {
+  "MikroORM Filter": {
     "prefix": ["ns_mikroorm_deco_filter", "@Filter"],
     "scope": "typescript",
     "body": "@Filter($0)"
   },
-  "Formula": {
+  "MikroORM Formula": {
     "prefix": ["ns_mikroorm_deco_formula", "@Formula"],
     "scope": "typescript",
     "body": "@Formula($0)"
   },
-  "BeforeCreate": {
+  "MikroORM BeforeCreate": {
     "prefix": ["ns_mikroorm_deco_before_create", "@BeforeCreate"],
     "scope": "typescript",
     "body": "@BeforeCreate()"
   },
-  "AfterCreate": {
+  "MikroORM AfterCreate": {
     "prefix": ["ns_mikroorm_deco_after_create", "@AfterCreate"],
     "scope": "typescript",
     "body": "@AfterCreate()"
   },
-  "BeforeUpdate": {
+  "MikroORM BeforeUpdate": {
     "prefix": ["ns_mikroorm_deco_before_update", "@BeforeUpdate"],
     "scope": "typescript",
     "body": "@BeforeUpdate()"
   },
-  "AfterUpdate": {
+  "MikroORM AfterUpdate": {
     "prefix": ["ns_mikroorm_deco_after_update", "@AfterUpdate"],
     "scope": "typescript",
     "body": "@AfterUpdate()"
   },
-  "BeforeUpsert": {
+  "MikroORM BeforeUpsert": {
     "prefix": ["ns_mikroorm_deco_before_upsert", "@BeforeUpsert"],
     "scope": "typescript",
     "body": "@BeforeUpsert()"
   },
-  "AfterUpsert": {
+  "MikroORM AfterUpsert": {
     "prefix": ["ns_mikroorm_deco_after_upsert", "@AfterUpsert"],
     "scope": "typescript",
     "body": "@AfterUpsert()"
   },
-  "OnInit": {
+  "MikroORM OnInit": {
     "prefix": ["ns_mikroorm_deco_on_init", "@OnInit"],
     "scope": "typescript",
     "body": "@OnInit()"
   },
-  "OnLoad": {
+  "MikroORM OnLoad": {
     "prefix": ["ns_mikroorm_deco_on_load", "@OnLoad"],
     "scope": "typescript",
     "body": "@OnLoad()"
   },
-  "BeforeDelete": {
+  "MikroORM BeforeDelete": {
     "prefix": ["ns_mikroorm_deco_before_delete", "@BeforeDelete"],
     "scope": "typescript",
     "body": "@BeforeDelete()"
   },
-  "AfterDelete": {
+  "MikroORM AfterDelete": {
     "prefix": ["ns_mikroorm_deco_after_delete", "@AfterDelete"],
     "scope": "typescript",
     "body": "@AfterDelete()"
   },
-  "Index": {
+  "MikroORM Index": {
     "prefix": ["ns_mikroorm_deco_index", "@Index"],
     "scope": "typescript",
     "body": "@Index($0)"
   },
-  "Unique": {
+  "MikroORM Unique": {
     "prefix": ["ns_mikroorm_deco_unique", "@Unique"],
     "scope": "typescript",
     "body": "@Unique($0)"
   },
-  "SerializedPrimaryKey": {
+  "MikroORM SerializedPrimaryKey": {
     "prefix": ["ns_mikroorm_deco_serialized_primary_key", "@SerializedPrimaryKey"],
     "scope": "typescript",
     "body": "@SerializedPrimaryKey()"
   },
-  "Subscriber": {
+  "MikroORM Subscriber": {
     "prefix": ["ns_mikroorm_deco_subscriber", "@Subscriber"],
     "scope": "typescript",
     "body": "@Subscriber()"

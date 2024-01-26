@@ -1,15 +1,15 @@
 {
-  "EntityManager": {
+  "MikroORM EntityManager": {
     "prefix": ["ns_mikroorm_entity_manager", "EntityManager"],
     "scope": "typescript",
     "body": "private readonly em: EntityManager,"
   },
-  "EntityDTO": {
+  "MikroORM EntityDTO": {
     "prefix": ["ns_mikroorm_entity_dto", "EntityDTO"],
     "scope": "typescript",
     "body": ["export interface ${1:Entity}DTO {", "  ${2:property}: ${3:string};", "}", ""]
   },
-  "RequestContext": {
+  "MikroORM RequestContext": {
     "prefix": ["ns_mikroorm_request_context", "RequestContext"],
     "scope": "typescript",
     "body": "RequestContext.create(this.orm.map(orm => orm.em), next);"
