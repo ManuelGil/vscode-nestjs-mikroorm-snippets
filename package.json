@@ -2,7 +2,7 @@
   "name": "vscode-nestjs-mikroorm-snippets",
   "displayName": "NestJS MikroORM Snippets - NestJS Tools Collection",
   "description": "TypeScript snippets for NestJS + MikroORM: entities, decorators, repositories, module setup, dependency injection, RequestContext, and DTOs — speed up your development with smart placeholders and clear descriptions.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "icon": "icon.png",
   "license": "MIT",
   "publisher": "imgildev",
