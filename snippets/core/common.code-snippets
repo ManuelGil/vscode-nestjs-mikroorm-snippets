@@ -2,16 +2,19 @@
   "MikroORM EntityManager": {
     "prefix": ["ns_mikroorm_entity_manager", "EntityManager"],
     "scope": "typescript",
+    "description": "Inject MikroORM EntityManager as a private readonly field.",
     "body": "private readonly em: EntityManager,"
   },
   "MikroORM EntityDTO": {
     "prefix": ["ns_mikroorm_entity_dto", "EntityDTO"],
     "scope": "typescript",
+    "description": "Scaffold a simple DTO interface.",
     "body": ["export interface ${1:Entity}DTO {", "  ${2:property}: ${3:string};", "}", ""]
   },
   "MikroORM RequestContext": {
     "prefix": ["ns_mikroorm_request_context", "RequestContext"],
     "scope": "typescript",
-    "body": "RequestContext.create(this.orm.map(orm => orm.em), next);"
+    "description": "Create a RequestContext with MikroORM EntityManager (NestJS middleware).",
+    "body": "RequestContext.create(this.orm.em, next);"
   }
 }

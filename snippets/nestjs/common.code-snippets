@@ -2,16 +2,19 @@
   "MikroORM InjectMikroORM": {
     "prefix": ["ns_mikroorm_deco_inject_mikroorm", "@InjectMikroORM"],
     "scope": "typescript",
+    "description": "Inject MikroORM instance.",
     "body": "@InjectMikroORM() private readonly orm: MikroORM;"
   },
   "MikroORM InjectRepository": {
     "prefix": ["ns_mikroorm_deco_inject_repository", "@InjectRepository"],
     "scope": "typescript",
+    "description": "Inject repository for the given entity.",
     "body": "@InjectRepository(${1:Entity}) private readonly ${2:entity}Repository: EntityRepository<${1:Entity}>;"
   },
   "MikroORM InjectEntityManager": {
     "prefix": ["ns_mikroorm_deco_inject_entity_manager", "@InjectEntityManager"],
     "scope": "typescript",
+    "description": "Inject entity manager instance.",
     "body": "@InjectEntityManager() private readonly em: EntityManager;"
   }
 }

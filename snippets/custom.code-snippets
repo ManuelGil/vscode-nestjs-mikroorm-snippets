@@ -2,11 +2,21 @@
   "MikroOrmModule forRoot": {
     "prefix": ["ns_mikroorm_module_root", "MikroOrmModule"],
     "scope": "typescript",
-    "body": ["MikroOrmModule.forRoot({", "  entities: [__dirname + '/dist/entities'],", "  entitiesTs: [__dirname + '/src/entities'],", "  dbName: 'my-db-name.sqlite3',", "  type: 'sqlite',", "}),", ""]
+    "description": "Configure MikroOrmModule.forRoot with placeholders and driver choice.",
+    "body": [
+      "MikroOrmModule.forRoot({",
+      "  entities: [__dirname + '/dist/entities'],",
+      "  entitiesTs: [__dirname + '/src/entities'],",
+      "  dbName: '${1:my-db-name}',",
+      "  type: '${2|sqlite,postgresql,mysql,mariadb,better-sqlite|}',",
+      "}),",
+      ""
+    ]
   },
   "MikroOrmModule forFeature": {
     "prefix": ["ns_mikroorm_module_feature", "MikroOrmModule"],
     "scope": "typescript",
+    "description": "Register entities for the feature module.",
     "body": ["MikroOrmModule.forFeature([", "  $0", "]),", ""]
   }
 }

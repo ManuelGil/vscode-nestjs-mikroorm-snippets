@@ -2,141 +2,169 @@
   "MikroORM Entity": {
     "prefix": ["ns_mikroorm_deco_entity", "@Entity"],
     "scope": "typescript",
+    "description": "Entity class decorator from MikroORM.",
     "body": ["import { Entity } from '@mikro-orm/core';", "", "@Entity()", "export class ${1:Entity} {", "  ${2:field}: ${3:string};", "}", ""]
   },
   "MikroORM PrimaryKey": {
     "prefix": ["ns_mikroorm_deco_primary_key", "@PrimaryKey"],
     "scope": "typescript",
-    "body": "@PrimaryKey()"
+    "description": "Primary key decorator (with tabstop for options).",
+    "body": "@PrimaryKey($0)"
   },
   "MikroORM Property": {
     "prefix": ["ns_mikroorm_deco_property", "@Property"],
     "scope": "typescript",
+    "description": "Property decorator for standard fields.",
     "body": "@Property($0)"
   },
   "MikroORM ManyToOne": {
     "prefix": ["ns_mikroorm_deco_many_to_one", "@ManyToOne"],
     "scope": "typescript",
+    "description": "Many-to-One relation decorator.",
     "body": "@ManyToOne($0)"
   },
   "MikroORM OneToMany": {
     "prefix": ["ns_mikroorm_deco_one_to_many", "@OneToMany"],
     "scope": "typescript",
+    "description": "One-to-Many relation decorator.",
     "body": "@OneToMany($0)"
   },
   "MikroORM ManyToMany": {
     "prefix": ["ns_mikroorm_deco_many_to_many", "@ManyToMany"],
     "scope": "typescript",
+    "description": "Many-to-Many relation decorator.",
     "body": "@ManyToMany($0)"
   },
   "MikroORM OneToOne": {
     "prefix": ["ns_mikroorm_deco_one_to_one", "@OneToOne"],
     "scope": "typescript",
+    "description": "One-to-One relation decorator.",
     "body": "@OneToOne($0)"
   },
   "MikroORM Check": {
     "prefix": ["ns_mikroorm_deco_check", "@Check"],
     "scope": "typescript",
+    "description": "Database CHECK constraint decorator.",
     "body": "@Check($0)"
   },
   "MikroORM Embeddable": {
     "prefix": ["ns_mikroorm_deco_embeddable", "@Embeddable"],
     "scope": "typescript",
+    "description": "Marks a class as Embeddable.",
     "body": "@Embeddable()"
   },
   "MikroORM Embedded": {
     "prefix": ["ns_mikroorm_deco_embedded", "@Embedded"],
     "scope": "typescript",
+    "description": "Marks a property as Embedded.",
     "body": "@Embedded($0)"
   },
   "MikroORM EnsureRequestContext": {
     "prefix": ["ns_mikroorm_deco_ensure_request_context", "@EnsureRequestContext"],
     "scope": "typescript",
+    "description": "Ensures that a RequestContext exists for the method execution.",
     "body": "@EnsureRequestContext()"
   },
   "MikroORM Enum": {
     "prefix": ["ns_mikroorm_deco_enum", "@Enum"],
     "scope": "typescript",
+    "description": "Enum decorator for enum properties.",
     "body": "@Enum($0)"
   },
   "MikroORM Filter": {
     "prefix": ["ns_mikroorm_deco_filter", "@Filter"],
     "scope": "typescript",
+    "description": "Defines a filter on entity(ies).",
     "body": "@Filter($0)"
   },
   "MikroORM Formula": {
     "prefix": ["ns_mikroorm_deco_formula", "@Formula"],
     "scope": "typescript",
+    "description": "Formula decorator for computed columns.",
     "body": "@Formula($0)"
   },
   "MikroORM BeforeCreate": {
     "prefix": ["ns_mikroorm_deco_before_create", "@BeforeCreate"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed before entity creation.",
     "body": "@BeforeCreate()"
   },
   "MikroORM AfterCreate": {
     "prefix": ["ns_mikroorm_deco_after_create", "@AfterCreate"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed after entity creation.",
     "body": "@AfterCreate()"
   },
   "MikroORM BeforeUpdate": {
     "prefix": ["ns_mikroorm_deco_before_update", "@BeforeUpdate"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed before entity update.",
     "body": "@BeforeUpdate()"
   },
   "MikroORM AfterUpdate": {
     "prefix": ["ns_mikroorm_deco_after_update", "@AfterUpdate"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed after entity update.",
     "body": "@AfterUpdate()"
   },
   "MikroORM BeforeUpsert": {
     "prefix": ["ns_mikroorm_deco_before_upsert", "@BeforeUpsert"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed before entity upsert.",
     "body": "@BeforeUpsert()"
   },
   "MikroORM AfterUpsert": {
     "prefix": ["ns_mikroorm_deco_after_upsert", "@AfterUpsert"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed after entity upsert.",
     "body": "@AfterUpsert()"
   },
   "MikroORM OnInit": {
     "prefix": ["ns_mikroorm_deco_on_init", "@OnInit"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed on entity initialization.",
     "body": "@OnInit()"
   },
   "MikroORM OnLoad": {
     "prefix": ["ns_mikroorm_deco_on_load", "@OnLoad"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed when entity is loaded.",
     "body": "@OnLoad()"
   },
   "MikroORM BeforeDelete": {
     "prefix": ["ns_mikroorm_deco_before_delete", "@BeforeDelete"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed before entity deletion.",
     "body": "@BeforeDelete()"
   },
   "MikroORM AfterDelete": {
     "prefix": ["ns_mikroorm_deco_after_delete", "@AfterDelete"],
     "scope": "typescript",
+    "description": "Lifecycle hook executed after entity deletion.",
     "body": "@AfterDelete()"
   },
   "MikroORM Index": {
     "prefix": ["ns_mikroorm_deco_index", "@Index"],
     "scope": "typescript",
+    "description": "Index decorator.",
     "body": "@Index($0)"
   },
   "MikroORM Unique": {
     "prefix": ["ns_mikroorm_deco_unique", "@Unique"],
     "scope": "typescript",
+    "description": "Unique constraint decorator.",
     "body": "@Unique($0)"
   },
   "MikroORM SerializedPrimaryKey": {
     "prefix": ["ns_mikroorm_deco_serialized_primary_key", "@SerializedPrimaryKey"],
     "scope": "typescript",
+    "description": "Serialized primary key decorator.",
     "body": "@SerializedPrimaryKey()"
   },
   "MikroORM Subscriber": {
     "prefix": ["ns_mikroorm_deco_subscriber", "@Subscriber"],
     "scope": "typescript",
+    "description": "Entity event subscriber decorator.",
     "body": "@Subscriber()"
   }
 }
